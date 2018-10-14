@@ -131,6 +131,10 @@ device	bcmintc
 attach	bcmintc at fdt
 file	arch/arm64/dev/bcm2836_intr.c		bcmintc
 
+device	bcmsdhost
+attach	bcmsdhost at fdt
+file	arch/arm64/dev/bcm2835_sdhost.c		bcmsdhost
+
 include	"dev/usb/dwc2/files.dwc2"
 attach	dwctwo at fdt with bcmdwctwo
 file	arch/arm64/dev/bcm2835_dwctwo.c		bcmdwctwo	needs-flag

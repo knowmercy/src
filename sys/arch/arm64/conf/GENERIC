@@ -128,6 +128,7 @@ bcmaux*		at fdt?
 bcmintc*	at fdt?
 bcmdog*		at fdt?
 bcmrng*		at fdt?
+bcmsdhost*	at fdt?
 bcmtemp*	at fdt?
 dwctwo*		at fdt?
 usb*		at dwctwo?
